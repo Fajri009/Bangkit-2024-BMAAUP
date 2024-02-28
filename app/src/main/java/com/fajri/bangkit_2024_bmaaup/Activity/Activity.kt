@@ -1,4 +1,4 @@
-package com.fajri.bangkit_2024_bmaaup
+package com.fajri.bangkit_2024_bmaaup.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import com.fajri.bangkit_2024_bmaaup.R
 
 class Activity : AppCompatActivity(), View.OnClickListener {
     private lateinit var edtWidth: EditText
